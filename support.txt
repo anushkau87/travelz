@@ -1,0 +1,15 @@
+http://kb.asia1.com
+Find support document
+http://kb.asia1.com/opub/doc/application-support-outside-office-premises
+
+Then log into server
+ssh prjd4@a1-app-b174.asia1.com.sg -p5722
+
+to find out xml file in archive folder
+ find . -name '*61531*'
+
+get list
+ls -ltr
+
+to find the time; xml sent to buuuk or tigerspike
+grep 61531 ftp-201311-4.log
